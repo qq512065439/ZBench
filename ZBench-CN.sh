@@ -118,7 +118,7 @@ if  [ ! -e '/tmp/speedtest.py' ]; then
     echo "Installing SpeedTest......"
     dir=$(pwd)
     cd /tmp/
-    wget -N --no-check-certificate https://raw.github.com/sivel/speedtest-cli/master/speedtest.py > /dev/null 2>&1
+    wget -N --no-check-certificate https://github.com/sivel/speedtest-cli/raw/master/speedtest.py > /dev/null 2>&1
     cd $dir
 fi
 chmod a+rx /tmp/speedtest.py
